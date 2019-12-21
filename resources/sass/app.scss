@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '../vendor/fontawesome-free/css/all.min';
+@import '../css/sb-admin';
+
+
+@import '~toastr/toastr.scss';
+
+.create_buttom { max-width:200px; margin:20px 0; }
+
+.fa-trash {  padding-right:5px; display: inline-block;  }
+.fa-edit {  padding-left:5px; display: inline-block;  }
+
+.fa-trash:hover { color:red;  }
+.fa-edit:hover { color:green;   }
+
+#front-page { background-color: #343a40 !important; }
+
